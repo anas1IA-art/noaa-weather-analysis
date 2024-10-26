@@ -1,0 +1,20 @@
+# Python
+.__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.py
+# Notebooks
+.ipynb_checkpoints
+
+# IDEs
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+
+# Project-specific
+/data
+models/
+*.log
