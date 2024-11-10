@@ -80,10 +80,12 @@ noaa-weather-analysis/
 
 
 
-6. Build the MapReduce application:
-   ```bash
-   mvn clean package
-   ```
+6. download data of your station that you prefer:
+     ````
+     python main.py "name of station "  " directory that you want to save your data"
+
+      
+   
 
 ## Project Phases
 

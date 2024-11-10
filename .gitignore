@@ -16,5 +16,9 @@ venv/
 
 # Project-specific
 /data
+/dataFES
+/DataANFA
+/DataMV
+
 models/
 *.log

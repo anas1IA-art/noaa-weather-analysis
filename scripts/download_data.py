@@ -1,7 +1,7 @@
 import argparse
 from scripts.data_collector import NOAADataDownloader
 
-def download():
+def  download():
     parser = argparse.ArgumentParser(description='Download NOAA weather data for a specified station.')
     parser.add_argument('station_name', type=str, help='The name of the weather station to download data for')
     parser.add_argument('data_directory', type=str, default='data', help='Directory to store downloaded data (default: data)')
